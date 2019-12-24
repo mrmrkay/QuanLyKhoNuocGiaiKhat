@@ -1,0 +1,9 @@
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\bin\Debug\Maintenance.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\bin\Debug\Maintenance.pdb
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\bin\Debug\Database.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\bin\Debug\Database.pdb
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\obj\Debug\Maintenance.csprojAssemblyReference.cache
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\obj\Debug\Maintenance.csproj.CoreCompileInputs.cache
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\obj\Debug\Maintenance.csproj.CopyComplete
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\obj\Debug\Maintenance.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Maintenance\obj\Debug\Maintenance.pdb

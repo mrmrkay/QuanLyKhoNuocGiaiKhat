@@ -1,0 +1,9 @@
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\bin\Debug\Activity.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\bin\Debug\Activity.pdb
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\obj\Debug\Activity.csproj.CoreCompileInputs.cache
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\obj\Debug\Activity.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\obj\Debug\Activity.pdb
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\bin\Debug\Database.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\bin\Debug\Database.pdb
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\obj\Debug\Activity.csprojAssemblyReference.cache
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Activity\obj\Debug\Activity.csproj.CopyComplete

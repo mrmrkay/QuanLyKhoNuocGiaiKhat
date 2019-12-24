@@ -1,0 +1,6 @@
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Database\bin\Debug\Database.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Database\bin\Debug\Database.pdb
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Database\obj\Debug\Database.dll
+C:\Users\manh2198\source\repos\QuanLyKhoNuocGiaiKhat\Database\obj\Debug\Database.pdb

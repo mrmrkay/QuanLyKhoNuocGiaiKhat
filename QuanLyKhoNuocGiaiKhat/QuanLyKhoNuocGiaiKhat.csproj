@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85573F13-4E8A-472B-8241-F79F1AB1B882}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyKhoNuocGiaiKhat</RootNamespace>
+    <AssemblyName>QuanLyKhoNuocGiaiKhat</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityForm\MaintainHoaDonNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityForm\MaintainHoaDonNhap.Designer.cs">
+      <DependentUpon>MaintainHoaDonNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityForm\MaintainHoaDonXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityForm\MaintainHoaDonXuat.Designer.cs">
+      <DependentUpon>MaintainHoaDonXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaitainForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaitainForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainHangHoa.Designer.cs">
+      <DependentUpon>MaintainHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainLoaiHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainLoaiHangHoa.Designer.cs">
+      <DependentUpon>MaintainLoaiHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainNhanVien.Designer.cs">
+      <DependentUpon>MaintainNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainNPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainNPP.Designer.cs">
+      <DependentUpon>MaintainNPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainPhanXuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaitainForm\MaintainPhanXuong.Designer.cs">
+      <DependentUpon>MaintainPhanXuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ActivityForm\MaintainHoaDonNhap.resx">
+      <DependentUpon>MaintainHoaDonNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityForm\MaintainHoaDonXuat.resx">
+      <DependentUpon>MaintainHoaDonXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaitainForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaitainForm\MaintainHangHoa.resx">
+      <DependentUpon>MaintainHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaitainForm\MaintainLoaiHangHoa.resx">
+      <DependentUpon>MaintainLoaiHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaitainForm\MaintainNhanVien.resx">
+      <DependentUpon>MaintainNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaitainForm\MaintainNPP.resx">
+      <DependentUpon>MaintainNPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaitainForm\MaintainPhanXuong.resx">
+      <DependentUpon>MaintainPhanXuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contents\icon\add.png" />
+    <Content Include="Contents\icon\common-icon.png" />
+    <None Include="Contents\icon\edit.png" />
+    <None Include="Contents\icon\delete.png" />
+    <Content Include="Contents\icon\iconMenu.png" />
+    <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Activity\Activity.csproj">
+      <Project>{da3fdded-13fc-4c3d-b2a4-4db7ed666bf1}</Project>
+      <Name>Activity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{53fa8d36-3cb9-4f0a-8acc-b78737e845bb}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Maintenance\Maintenance.csproj">
+      <Project>{db969212-a811-45c4-adb5-4773c8083e06}</Project>
+      <Name>Maintenance</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
